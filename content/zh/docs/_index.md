@@ -1,5 +1,9 @@
 ---
 title: "快速开始"
+linkTitle: "文档"
+menu:
+  main:
+    weight: 30
 ---
 
 <div style="width: 200px; margin-left:60px;">
