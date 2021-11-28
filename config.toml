@@ -75,11 +75,11 @@ description = "Open source multilingual commerce system"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.zh-hans]
-title = "唯店"
+[languages.zh]
+title = "WeeShop"
 description = "开源多语语电商系统"
 languageName ="简体中文"
-contentDir = "content/zh-hans"
+contentDir = "content/zh"
 time_format_default = "2006年2月1日"
 time_format_blog = "2006年2月1日"
 
