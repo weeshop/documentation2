@@ -32,19 +32,14 @@ docker-compose exec web bash
 # 进入容器后，在容器内继续运行下面的命令
 # 安装实例
 su - application -c \
-"cd /app/web/sites && /usr/local/bin/drupal site:install --force --no-interaction weeshop  \
---langcode='en'  \
---db-type='mysql'  \
---db-host='db'  \
---db-name='drupal'  \
---db-user='root'  \
---db-pass='123'  \
---db-port='3306'  \
---site-name='My WeeShop'  \
---site-mail='164713332@qq.com'  \
---account-name='admin'  \
---account-mail='164713332@qq.com'  \
---account-pass='123'"
+"cd /app && ./vendor/bin/drush site:install weeshop \
+--db-url=mysql://root:123@db:3306/drupal \
+--locale=en \
+--site-name='My WeeShop' \
+--site-mail=164713332@qq.com \
+--account-name=admin \
+--account-mail=164713332@qq.com \
+--account-pass=123"
 
 # 更新翻译
 su - application -c "cd /app/web/sites && \
