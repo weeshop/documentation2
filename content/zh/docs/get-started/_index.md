@@ -33,6 +33,8 @@ docker-compose exec web bash
 # 安装实例
 su - application -c \
 "cd /app && ./vendor/bin/drush site:install weeshop \
+install_configure_form.enable_update_status_emails=NULL \
+install_configure_form.demo_content=1 \
 --db-url=mysql://root:123@db:3306/drupal \
 --locale=en \
 --site-name='My WeeShop' \
