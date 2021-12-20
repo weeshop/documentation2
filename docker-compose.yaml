@@ -5,6 +5,7 @@ services:
   site:
     image: klakegg/hugo:ext-alpine
     command: server
+    privileged: true
     ports:
       - "1313:1313"
     volumes:
