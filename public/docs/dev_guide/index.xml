@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WeeShop – Developer guide</title>
+    <link>/docs/dev_guide/</link>
+    <description>Recent content in Developer guide on WeeShop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/dev_guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 主题开发</title>
+      <link>/docs/dev_guide/theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dev_guide/theme/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;此主题有待编写&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 创建项目工程</title>
+      <link>/docs/dev_guide/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dev_guide/project/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;此主题有待编写&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 模块开发</title>
+      <link>/docs/dev_guide/module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dev_guide/module/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;此主题有待编写&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

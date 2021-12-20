@@ -1,0 +1,86 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WeeShop – WeeShop</title>
+    <link>/zh/</link>
+    <description>Recent content on WeeShop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+    <item>
+      <title>Blog: 2.0 版本发布</title>
+      <link>/zh/blog/2021/12/18/2.0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/blog/2021/12/18/2.0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;Drupal 9 兼容&lt;/li&gt;
+&lt;li&gt;全新的前端主题&lt;/li&gt;
+&lt;li&gt;全新后端主题&lt;/li&gt;
+&lt;li&gt;完整的前后端分离支持&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 新的征程</title>
+      <link>/zh/blog/2021/12/17/%E6%96%B0%E7%9A%84%E5%BE%81%E7%A8%8B/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/blog/2021/12/17/%E6%96%B0%E7%9A%84%E5%BE%81%E7%A8%8B/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: WeeShop 新版官网上线</title>
+      <link>/zh/blog/2021/12/16/weeshop-%E6%96%B0%E7%89%88%E5%AE%98%E7%BD%91%E4%B8%8A%E7%BA%BF/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/blog/2021/12/16/weeshop-%E6%96%B0%E7%89%88%E5%AE%98%E7%BD%91%E4%B8%8A%E7%BA%BF/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/zh/blog/2021/12/16/weeshop-%E6%96%B0%E7%89%88%E5%AE%98%E7%BD%91%E4%B8%8A%E7%BA%BF/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_640x0_resize_catmullrom_3.png" width="640" height="253"/>]]>
+        
+        
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/zh/blog/2021/12/16/weeshop-%E6%96%B0%E7%89%88%E5%AE%98%E7%BD%91%E4%B8%8A%E7%BA%BF/new-official-site_hu5cc5888464b328698c65425f20bffb5a_4673621_600x300_fill_q75_catmullrom_smart1.jpg&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+美观大方的新的官网首页视图。
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;图片截取于2021年12月19日&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;多语言支持&lt;/li&gt;
+&lt;li&gt;增加博客功能&lt;/li&gt;
+&lt;li&gt;增加协作功能&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

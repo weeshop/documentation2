@@ -1,0 +1,36 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WeeShop – 版本发布</title>
+    <link>/zh/blog/releases/</link>
+    <description>Recent content in 版本发布 on WeeShop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/zh/blog/releases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: 2.0 版本发布</title>
+      <link>/zh/blog/2021/12/18/2.0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/blog/2021/12/18/2.0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;Drupal 9 兼容&lt;/li&gt;
+&lt;li&gt;全新的前端主题&lt;/li&gt;
+&lt;li&gt;全新后端主题&lt;/li&gt;
+&lt;li&gt;完整的前后端分离支持&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
