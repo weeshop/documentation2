@@ -212,4 +212,3 @@ enable = false
 	url = "https://www.weeshop.org/mail"
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
-
