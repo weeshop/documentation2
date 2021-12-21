@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.91.0" /><link rel="alternate" type="text/html" href="/zh/docs/get-started/_print/">
+<meta name="generator" content="Hugo 0.88.1" /><link rel="alternate" type="text/html" href="/zh/docs/get-started/_print/">
 <link rel="alternate" type="application/rss&#43;xml" href="/zh/docs/get-started/index.xml">
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -39,8 +39,8 @@
 
 
 
-
-<link href="/scss/main.css" rel="stylesheet">
+<link rel="preload" href="/scss/main.min.bd5285b713d3061549a6bfd34e5f4ec6775ede36672a3088260f0d420050647f.css" as="style">
+<link href="/scss/main.min.bd5285b713d3061549a6bfd34e5f4ec6775ede36672a3088260f0d420050647f.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -49,6 +49,21 @@
   crossorigin="anonymous"></script>
 
 
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-00000000-0', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
 
@@ -338,7 +353,7 @@
 <li>确保本机8080端口没有被占用。这是因为 <code>docker-compose.yml</code> 中需要映射 Web 容器的 80 端口到物理机的 8080 端口。</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8f5902;font-style:italic"># 创建 WeeShop 模板工程sdsdfsdf</span>
-composer create-project weeshop/project-base:dev-8.x-1.x WeeShop --stability dev --no-interaction -vvv
+composer create-project weeshop/weeshop_project WeeShop --stability dev --no-interaction -vvv
 
 <span style="color:#8f5902;font-style:italic"># 进行工程目录</span>
 <span style="color:#204a87">cd</span> WeeShop
@@ -367,7 +382,7 @@ su - application -c <span style="color:#4e9a06">\
 su - application -c <span style="color:#4e9a06">&#34;cd /app/web/sites &amp;&amp; \
 </span><span style="color:#4e9a06">/usr/local/bin/drush -vvv locale:check &amp;&amp; \
 </span><span style="color:#4e9a06">/usr/local/bin/drush -vvv locale:update&#34;</span>
-</code></pre></div><p>浏览器访问 <code>http://localhost:8080</code>，开始体验吧！</p>
+</code></pre></div><p>浏览器访问 <code>http://localhost:8081</code>，开始体验吧！</p>
 
         <div class="section-index">
     
@@ -553,7 +568,8 @@ su - application -c <span style="color:#4e9a06">&#34;cd /app/web/sites &amp;&amp
 
 
 
-<script src="/js/main.js"></script>
+
+<script src="/js/main.min.5c74b870c6953931a705f390a49c7e4c0a842ec5c83b24354758dd674343ed0d.js" integrity="sha256-XHS4cMaVOTGnBfOQpJx&#43;TAqELsXIOyQ1R1jdZ0ND7Q0=" crossorigin="anonymous"></script>
 
 
 

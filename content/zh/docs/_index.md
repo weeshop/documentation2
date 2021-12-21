@@ -6,7 +6,7 @@ menu:
     weight: 30
 ---
 
-<div style="width: 200px; margin-left:60px;">
+<div style="width: 200px;">
 
 [![WeeShop](images/WeeShop.png)](https://github.com/weeshop/weeshop)
 
@@ -21,18 +21,26 @@ menu:
 </p>
 
 
-优雅易用的开源商城，支持多货币，多语言，包含 [移动端以及微信小程序](https://github.com/weeshop/WeeApp)
-基于 GPL-2.0 开源协议发布，真开源，这是属于中国开源社区的商城。
-基于 Laravel 的基因，来自 Symfony 的底层技术，来自 Drupal Commerce 的核心技术，由 Drupal 中国开源社区维护。
+WeeShop 是一个支持多语言、多货币的 Web 电子商务系统。
+它能够帮您快速地建立一个可靠的跨境电子务商务网站， 帮助企业在网络上自由地销售自己的产品。
+
+WeeShop 不单支持基于浏览器的响应式 Web 客户端，而且支持 iOS/Android 移动端，以及微信小程序，
+系统提供了完善的 HTTP API 与这些客端进行无缝集成。
+
+WeeShop 是基于 GPL-2.0 开源协议发布，由 Drupal 中国开源社区维护，这是属于中国开源社区的商城系统。
+
+WeeShop 基于 [Drupal 9 CMF/CMS](https://www.drupal.org) 技术，
+它使用与 [Laravel](https://laravel.com/) 相同的的底层框架 [Symfony](https://symfony.com/) ，
+WeeShop 的核心是 [Drupal commerce core](https://www.drupal.org/project/commerce) ，是一个灵活且强大的电子商务系统引擎。
 
 ## 加入 WeeShop 社区
+
 QQ群：714023327
 
-
-感谢您的关注，WeeShop的成功离不开您的意见和支持：
+感谢您的关注，WeeShop 的成功离不开您的意见和支持：
 - 马上Star此项目，最好同时Fork此项目，以帮助让更多的人看到此项目。
-- 我们万分欢迎您参与开发，我们的组织在 [github.com/weeshop](https://github.com/weeshop)。 
-- 我们希望听见您的心声，请 [创建issue](https://github.com/weeshop/WeeShop/issues/new) 来表达您的意见。
+- 我们万分欢迎您参与开发，我们的组织在 [github.com/WeeShop](https://github.com/weeshop) 。 
+- 我们希望听见您的心声，请 [创建issue](https://github.com/WeeShop/WeeShop/issues/new) 来表达您的意见。
 
 ## 界面截图
 
@@ -59,9 +67,3 @@ QQ群：714023327
 - 支持全球流行的各种支付手段，Paypal、支付宝、微信、银行卡等。
 - 使用全文检索技术，可以选择使用各种流行的全文检索方案，如Apache solr等。
 - 支持符合工业标准的RESTful接口，可配置多种认证方式HTTP Basic、Oauth2.0 等，轻松进行移动应用开发。
-
-#### 重要Issuse 
-- Docker for windows, volume默认权限是755，而无法更改 [#issues39](https://github.com/docker/for-win/issues/39)
-  
-  - 解决办法，使用Mac或Linux系统
-  - 在 `docker-compose.yml` 中把 `/app/web/sites` 目录的volume注掉，让文件留在容器内

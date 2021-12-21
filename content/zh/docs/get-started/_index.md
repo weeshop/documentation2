@@ -18,7 +18,7 @@ weight: 10
 
 ```bash
 # 创建 WeeShop 模板工程sdsdfsdf
-composer create-project weeshop/project-base:dev-8.x-1.x WeeShop --stability dev --no-interaction -vvv
+composer create-project weeshop/weeshop_project WeeShop --stability dev --no-interaction -vvv
 
 # 进行工程目录
 cd WeeShop
@@ -49,4 +49,4 @@ su - application -c "cd /app/web/sites && \
 /usr/local/bin/drush -vvv locale:update"
 ```
 
-浏览器访问 `http://localhost:8080`，开始体验吧！
+浏览器访问 `http://localhost:8081`，开始体验吧！
