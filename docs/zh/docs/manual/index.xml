@@ -14,39 +14,6 @@
     
     
     <item>
-      <title>Docs: 促销管理</title>
-      <link>/zh/docs/manual/promotion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/docs/manual/promotion/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-&lt;p&gt;此主题编写不完整&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: 商品管理</title>
-      <link>/zh/docs/manual/product/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/docs/manual/product/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;添加产品分类&#34;&gt;添加产品分类&lt;/h2&gt;
-&lt;h2 id=&#34;添加产品属性&#34;&gt;添加产品属性&lt;/h2&gt;
-&lt;h2 id=&#34;添加产品&#34;&gt;添加产品&lt;/h2&gt;
-&lt;h2 id=&#34;添加产品规格&#34;&gt;添加产品规格&lt;/h2&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: 安装</title>
       <link>/zh/docs/manual/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,7 +23,7 @@
         
         
         &lt;blockquote&gt;
-&lt;p&gt;本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 &lt;a href=&#34;../dev_guide/project.html&#34;&gt;使用 Composer 进行工程创建&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 &lt;a href=&#34;/zh/docs/develop/project/&#34; title=&#34;使用 Composer 进行工程创建&#34;&gt;使用 Composer 进行工程创建&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;下载&#34;&gt;下载&lt;/h2&gt;
 &lt;p&gt;请前往 &lt;a href=&#34;https://github.com/weeshop/WeeShop/releases&#34;&gt;WeeShop Github 版本发布页面&lt;/a&gt;
@@ -66,7 +33,7 @@
 &lt;p&gt;在源码的根目录有一个 &lt;code&gt;docker-compose.yml&lt;/code&gt; 文件，文件中已编排了一个 web 容器和一个 db 容器，
 如果主机已经安装了 docker，那么可以直接在源码根目录运行以下命令即可：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;docker-compose up -d
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行命令后，通过访问 &lt;code&gt;http://localhost:8080&lt;/code&gt; 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行命令后，通过访问 &lt;code&gt;http://localhost:8081&lt;/code&gt; 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
 需要注意的是，数据库的设置：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;主机: db&lt;/li&gt;
@@ -151,13 +118,35 @@ zlib
 
 &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;Zend Modules&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
 Zend OPcache
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;执行安装&#34;&gt;执行安装&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;执行安装&#34;&gt;执行安装&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;解压源码包，把 web 目录设置为 apache 站点根目录。&lt;/li&gt;
 &lt;li&gt;确保 apache 进程对 &lt;code&gt;web/sites/default&lt;/code&gt; 目录拥有可写权限，其他目录权需可读权限即可。&lt;/li&gt;
 &lt;li&gt;在浏览器中访问 apache 站点，即可打开WeeShop的图形化安装界面。&lt;/li&gt;
 &lt;li&gt;按照图形界面的要求填写数据库连接信息，和站点信息、管理员账号信息，即可完成安装。&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 管理后台</title>
+      <link>/zh/docs/manual/login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/docs/manual/login/</guid>
+      <description>
+        
+        
+        &lt;p&gt;一旦您安装完成，即可通过访问 &lt;code&gt;http://localhost:8081&lt;/code&gt; 打开系统的网站页面，
+这时候你很可能会希望登录管理后台，为您新安装好的系统添加要在网络上销售的产品。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问 &lt;code&gt;http://localhost:8081/user/login&lt;/code&gt; 打开登录页面&lt;/li&gt;
+&lt;li&gt;输入安装时设定的 &lt;code&gt;用户名&lt;/code&gt; 和 &lt;code&gt;密码&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击 &lt;code&gt;登录&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;登录成功后，系统页面的顶部会显示一个工具栏，通过点击工具栏中的菜单链接，您可以对系统各方面的内容进行管理。&lt;/p&gt;
+&lt;p&gt;后面的章节会进一步介绍如何使用这些后台功能。&lt;/p&gt;
 
       </description>
     </item>
@@ -187,17 +176,18 @@ Zend OPcache
     </item>
     
     <item>
-      <title>Docs: 微信小程序端上传指南</title>
-      <link>/zh/docs/manual/weapp/</link>
+      <title>Docs: 商品管理</title>
+      <link>/zh/docs/manual/product/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/docs/manual/weapp/</guid>
+      <guid>/zh/docs/manual/product/</guid>
       <description>
         
         
-        &lt;blockquote&gt;
-&lt;p&gt;此主题编写不完整&lt;/p&gt;
-&lt;/blockquote&gt;
+        &lt;h2 id=&#34;添加产品分类&#34;&gt;添加产品分类&lt;/h2&gt;
+&lt;h2 id=&#34;添加产品属性&#34;&gt;添加产品属性&lt;/h2&gt;
+&lt;h2 id=&#34;添加产品&#34;&gt;添加产品&lt;/h2&gt;
+&lt;h2 id=&#34;添加产品规格&#34;&gt;添加产品规格&lt;/h2&gt;
 
       </description>
     </item>
@@ -217,19 +207,33 @@ Zend OPcache
     </item>
     
     <item>
-      <title>Docs: 管理后台</title>
-      <link>/zh/docs/manual/login/</link>
+      <title>Docs: 促销管理</title>
+      <link>/zh/docs/manual/promotion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/docs/manual/login/</guid>
+      <guid>/zh/docs/manual/promotion/</guid>
       <description>
         
         
-        &lt;ul&gt;
-&lt;li&gt;访问 &lt;code&gt;http://localhost:8080/user/login&lt;/code&gt; 打开登录页面&lt;/li&gt;
-&lt;li&gt;输入安装时设定的 &lt;code&gt;用户名&lt;/code&gt; 和 &lt;code&gt;密码&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;点击 &lt;code&gt;登录&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;blockquote&gt;
+&lt;p&gt;此主题编写不完整&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 购物</title>
+      <link>/zh/docs/manual/shopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/docs/manual/shopping/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;此主题编写不完整&lt;/p&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
@@ -267,11 +271,11 @@ Zend OPcache
     </item>
     
     <item>
-      <title>Docs: 购物</title>
-      <link>/zh/docs/manual/shopping/</link>
+      <title>Docs: 微信小程序端上传指南</title>
+      <link>/zh/docs/manual/weapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/docs/manual/shopping/</guid>
+      <guid>/zh/docs/manual/weapp/</guid>
       <description>
         
         

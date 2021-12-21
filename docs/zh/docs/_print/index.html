@@ -137,6 +137,16 @@ if (!doNotTrack) {
 				<a class="nav-link" href="/zh/community/" ><span>社区</span></a>
 			</li>
 			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="https://github.com/WeeShop/WeeShop/releases" target="_blank" ><i class='fab fa-github'></i><span>Download</span><span class='alert'>New!</span></a>
+			</li>
+			
 			
 			
 			<li class="nav-item dropdown mr-4 d-none d-lg-block">
@@ -237,7 +247,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.1: <a href="#pg-d4fe554411b1f91a5f66fdfb7f95ffe8">促销管理</a></li>
+<li>2.1: <a href="#pg-0c395d58ade4c8912ac98a4c3236e8e9">安装</a></li>
 
 
     
@@ -245,7 +255,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.2: <a href="#pg-7e0299c0f7cfbfa2c5296da975df710a">商品管理</a></li>
+<li>2.2: <a href="#pg-ed29fa3d5e7ac9803b3c7a694d5ff001">管理后台</a></li>
 
 
     
@@ -253,7 +263,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.3: <a href="#pg-0c395d58ade4c8912ac98a4c3236e8e9">安装</a></li>
+<li>2.3: <a href="#pg-ef5e3373b86ac37020e61225693b2f85">店铺管理</a></li>
 
 
     
@@ -261,7 +271,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.4: <a href="#pg-ef5e3373b86ac37020e61225693b2f85">店铺管理</a></li>
+<li>2.4: <a href="#pg-7e0299c0f7cfbfa2c5296da975df710a">商品管理</a></li>
 
 
     
@@ -269,7 +279,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.5: <a href="#pg-a9bccff0078702b2f3c37f75cd0059dc">微信小程序端上传指南</a></li>
+<li>2.5: <a href="#pg-53541ff640db7f02ba266ad598559d5f">支付网关管理</a></li>
 
 
     
@@ -277,7 +287,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.6: <a href="#pg-53541ff640db7f02ba266ad598559d5f">支付网关管理</a></li>
+<li>2.6: <a href="#pg-d4fe554411b1f91a5f66fdfb7f95ffe8">促销管理</a></li>
 
 
     
@@ -285,7 +295,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.7: <a href="#pg-ed29fa3d5e7ac9803b3c7a694d5ff001">管理后台</a></li>
+<li>2.7: <a href="#pg-2c1930fdb8cc666c81ee27a01831dfb9">购物</a></li>
 
 
     
@@ -309,7 +319,7 @@ if (!doNotTrack) {
     
     
 	
-<li>2.10: <a href="#pg-2c1930fdb8cc666c81ee27a01831dfb9">购物</a></li>
+<li>2.10: <a href="#pg-a9bccff0078702b2f3c37f75cd0059dc">微信小程序端上传指南</a></li>
 
 
     
@@ -460,9 +470,9 @@ su - application -c <span style="color:#4e9a06">\
 </span><span style="color:#4e9a06">--db-url=mysql://root:123@db:3306/drupal \
 </span><span style="color:#4e9a06">--locale=en \
 </span><span style="color:#4e9a06">--site-name=&#39;My WeeShop&#39; \
-</span><span style="color:#4e9a06">--site-mail=164713332@qq.com \
+</span><span style="color:#4e9a06">--site-mail=your-mail@example.com \
 </span><span style="color:#4e9a06">--account-name=admin \
-</span><span style="color:#4e9a06">--account-mail=164713332@qq.com \
+</span><span style="color:#4e9a06">--account-mail=your-mail@example.com \
 </span><span style="color:#4e9a06">--account-pass=123&#34;</span>
 
 <span style="color:#8f5902;font-style:italic"># 更新翻译</span>
@@ -499,7 +509,9 @@ su - application -c <span style="color:#4e9a06">&#34;cd /app/web/sites &amp;&amp
     
 	<h1 id="pg-4de0c854c3d97300282075e2dd0795a4">2 - 用户指南</h1>
     
-	<p>用户指南。</p>
+	<p>本章内容将指引用户如何使用 WeeShop 的系统功能，包括系统管理员如何安装本系统，
+安装完成后管理员如何通过 Web 后台管理系统销售的产品和订单，
+以及顾客如何通过浏览器客户端购买系统所销售的产品。</p>
 
 </div>
 
@@ -521,53 +533,12 @@ su - application -c <span style="color:#4e9a06">&#34;cd /app/web/sites &amp;&amp
 	
     
 
-<div class="td-content" style="">
-    
-	<h1 id="pg-d4fe554411b1f91a5f66fdfb7f95ffe8">2.1 - 促销管理</h1>
-    
-	<blockquote>
-<p>此主题编写不完整</p>
-</blockquote>
-
-</div>
-
-
-
-    
-	
-  
-    
-    
-	
-    
-
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-7e0299c0f7cfbfa2c5296da975df710a">2.2 - 商品管理</h1>
-    
-	<h2 id="添加产品分类">添加产品分类</h2>
-<h2 id="添加产品属性">添加产品属性</h2>
-<h2 id="添加产品">添加产品</h2>
-<h2 id="添加产品规格">添加产品规格</h2>
-
-</div>
-
-
-
-    
-	
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-0c395d58ade4c8912ac98a4c3236e8e9">2.3 - 安装</h1>
+	<h1 id="pg-0c395d58ade4c8912ac98a4c3236e8e9">2.1 - 安装</h1>
     
 	<blockquote>
-<p>本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 <a href="../dev_guide/project.html">使用 Composer 进行工程创建</a></p>
+<p>本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 <a href="/zh/docs/develop/project/" title="使用 Composer 进行工程创建">使用 Composer 进行工程创建</a></p>
 </blockquote>
 <h2 id="下载">下载</h2>
 <p>请前往 <a href="https://github.com/weeshop/WeeShop/releases">WeeShop Github 版本发布页面</a>
@@ -577,7 +548,7 @@ su - application -c <span style="color:#4e9a06">&#34;cd /app/web/sites &amp;&amp
 <p>在源码的根目录有一个 <code>docker-compose.yml</code> 文件，文件中已编排了一个 web 容器和一个 db 容器，
 如果主机已经安装了 docker，那么可以直接在源码根目录运行以下命令即可：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker-compose up -d
-</code></pre></div><p>运行命令后，通过访问 <code>http://localhost:8080</code> 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
+</code></pre></div><p>运行命令后，通过访问 <code>http://localhost:8081</code> 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
 需要注意的是，数据库的设置：</p>
 <ul>
 <li>主机: db</li>
@@ -662,7 +633,7 @@ zlib
 
 <span style="color:#ce5c00;font-weight:bold">[</span>Zend Modules<span style="color:#ce5c00;font-weight:bold">]</span>
 Zend OPcache
-</code></pre></div><h2 id="执行安装">执行安装</h2>
+</code></pre></div><h4 id="执行安装">执行安装</h4>
 <ul>
 <li>解压源码包，把 web 目录设置为 apache 站点根目录。</li>
 <li>确保 apache 进程对 <code>web/sites/default</code> 目录拥有可写权限，其他目录权需可读权限即可。</li>
@@ -684,7 +655,33 @@ Zend OPcache
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-ef5e3373b86ac37020e61225693b2f85">2.4 - 店铺管理</h1>
+	<h1 id="pg-ed29fa3d5e7ac9803b3c7a694d5ff001">2.2 - 管理后台</h1>
+    
+	<p>一旦您安装完成，即可通过访问 <code>http://localhost:8081</code> 打开系统的网站页面，
+这时候你很可能会希望登录管理后台，为您新安装好的系统添加要在网络上销售的产品。</p>
+<ul>
+<li>访问 <code>http://localhost:8081/user/login</code> 打开登录页面</li>
+<li>输入安装时设定的 <code>用户名</code> 和 <code>密码</code></li>
+<li>点击 <code>登录</code></li>
+</ul>
+<p>登录成功后，系统页面的顶部会显示一个工具栏，通过点击工具栏中的菜单链接，您可以对系统各方面的内容进行管理。</p>
+<p>后面的章节会进一步介绍如何使用这些后台功能。</p>
+
+</div>
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-ef5e3373b86ac37020e61225693b2f85">2.3 - 店铺管理</h1>
     
 	<blockquote>
 <p>此主题编写不完整</p>
@@ -712,7 +709,46 @@ Zend OPcache
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-a9bccff0078702b2f3c37f75cd0059dc">2.5 - 微信小程序端上传指南</h1>
+	<h1 id="pg-7e0299c0f7cfbfa2c5296da975df710a">2.4 - 商品管理</h1>
+    
+	<h2 id="添加产品分类">添加产品分类</h2>
+<h2 id="添加产品属性">添加产品属性</h2>
+<h2 id="添加产品">添加产品</h2>
+<h2 id="添加产品规格">添加产品规格</h2>
+
+</div>
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-53541ff640db7f02ba266ad598559d5f">2.5 - 支付网关管理</h1>
+    
+	<h2 id="添加支付网关">添加支付网关</h2>
+
+</div>
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-d4fe554411b1f91a5f66fdfb7f95ffe8">2.6 - 促销管理</h1>
     
 	<blockquote>
 <p>此主题编写不完整</p>
@@ -732,31 +768,11 @@ Zend OPcache
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-53541ff640db7f02ba266ad598559d5f">2.6 - 支付网关管理</h1>
+	<h1 id="pg-2c1930fdb8cc666c81ee27a01831dfb9">2.7 - 购物</h1>
     
-	<h2 id="添加支付网关">添加支付网关</h2>
-
-</div>
-
-
-
-    
-	
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-ed29fa3d5e7ac9803b3c7a694d5ff001">2.7 - 管理后台</h1>
-    
-	<ul>
-<li>访问 <code>http://localhost:8080/user/login</code> 打开登录页面</li>
-<li>输入安装时设定的 <code>用户名</code> 和 <code>密码</code></li>
-<li>点击 <code>登录</code></li>
-</ul>
+	<blockquote>
+<p>此主题编写不完整</p>
+</blockquote>
 
 </div>
 
@@ -812,7 +828,7 @@ Zend OPcache
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-2c1930fdb8cc666c81ee27a01831dfb9">2.10 - 购物</h1>
+	<h1 id="pg-a9bccff0078702b2f3c37f75cd0059dc">2.10 - 微信小程序端上传指南</h1>
     
 	<blockquote>
 <p>此主题编写不完整</p>

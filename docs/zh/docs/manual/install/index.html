@@ -34,25 +34,25 @@ WeeShop 自带 Docker 镜像，如果会使用 Docker，安装将会非常方 �
  下载 请前往 WeeShop Github 版本发布页面 下载最新版本的发行包。
 使用 Docker 镜像安装 WeeShop 自带 Docker 镜像，如果会使用 Docker，安装将会非常方便。
 在源码的根目录有一个 docker-compose.yml 文件，文件中已编排了一个 web 容器和一个 db 容器， 如果主机已经安装了 docker，那么可以直接在源码根目录运行以下命令即可：
-docker-compose up -d 运行命令后，通过访问 http://localhost:8080 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。 需要注意的是，数据库的设置：
+docker-compose up -d 运行命令后，通过访问 http://localhost:8081 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。 需要注意的是，数据库的设置：
  主机: db 端口：3306 用户：root 密码：123 数据库：weeshop  自定义服务器环境安装 由于 Docker 的便利性，强列建议使用 Docker 方式进行安装。
 如果要自行架设置 Apache 和 MySQL 环境，请根据以下的要求来配置。
 运行环境要求  操作系统：任何支持 PHP 的操作系统，如 Windows/Linux/MacOS HTTP服务器：暂时只支持 Apache，请使用 2.4以上版本，并且需要开启 rewrite。 PHP版本：请使用 7.1 以上版本。 MySQL版本：请使用 Mysql 5." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/zh/docs/manual/install/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2021-11-30T22:25:02+08:00" /><meta property="og:site_name" content="WeeShop" />
+<meta property="article:modified_time" content="2021-12-21T21:14:35+08:00" /><meta property="og:site_name" content="WeeShop" />
 
 <meta itemprop="name" content="安装">
 <meta itemprop="description" content="本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 使用 Composer 进行工程创建
  下载 请前往 WeeShop Github 版本发布页面 下载最新版本的发行包。
 使用 Docker 镜像安装 WeeShop 自带 Docker 镜像，如果会使用 Docker，安装将会非常方便。
 在源码的根目录有一个 docker-compose.yml 文件，文件中已编排了一个 web 容器和一个 db 容器， 如果主机已经安装了 docker，那么可以直接在源码根目录运行以下命令即可：
-docker-compose up -d 运行命令后，通过访问 http://localhost:8080 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。 需要注意的是，数据库的设置：
+docker-compose up -d 运行命令后，通过访问 http://localhost:8081 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。 需要注意的是，数据库的设置：
  主机: db 端口：3306 用户：root 密码：123 数据库：weeshop  自定义服务器环境安装 由于 Docker 的便利性，强列建议使用 Docker 方式进行安装。
 如果要自行架设置 Apache 和 MySQL 环境，请根据以下的要求来配置。
 运行环境要求  操作系统：任何支持 PHP 的操作系统，如 Windows/Linux/MacOS HTTP服务器：暂时只支持 Apache，请使用 2.4以上版本，并且需要开启 rewrite。 PHP版本：请使用 7.1 以上版本。 MySQL版本：请使用 Mysql 5.">
-<meta itemprop="dateModified" content="2021-11-30T22:25:02+08:00" />
+<meta itemprop="dateModified" content="2021-12-21T21:14:35+08:00" />
 <meta itemprop="wordCount" content="155">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="安装"/>
@@ -60,7 +60,7 @@ docker-compose up -d 运行命令后，通过访问 http://localhost:8080 即可
  下载 请前往 WeeShop Github 版本发布页面 下载最新版本的发行包。
 使用 Docker 镜像安装 WeeShop 自带 Docker 镜像，如果会使用 Docker，安装将会非常方便。
 在源码的根目录有一个 docker-compose.yml 文件，文件中已编排了一个 web 容器和一个 db 容器， 如果主机已经安装了 docker，那么可以直接在源码根目录运行以下命令即可：
-docker-compose up -d 运行命令后，通过访问 http://localhost:8080 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。 需要注意的是，数据库的设置：
+docker-compose up -d 运行命令后，通过访问 http://localhost:8081 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。 需要注意的是，数据库的设置：
  主机: db 端口：3306 用户：root 密码：123 数据库：weeshop  自定义服务器环境安装 由于 Docker 的便利性，强列建议使用 Docker 方式进行安装。
 如果要自行架设置 Apache 和 MySQL 环境，请根据以下的要求来配置。
 运行环境要求  操作系统：任何支持 PHP 的操作系统，如 Windows/Linux/MacOS HTTP服务器：暂时只支持 Apache，请使用 2.4以上版本，并且需要开启 rewrite。 PHP版本：请使用 7.1 以上版本。 MySQL版本：请使用 Mysql 5."/>
@@ -157,6 +157,16 @@ if (!doNotTrack) {
 				<a class="nav-link" href="/zh/community/" ><span>社区</span></a>
 			</li>
 			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="https://github.com/WeeShop/WeeShop/releases" target="_blank" ><i class='fab fa-github'></i><span>Download</span><span class='alert'>New!</span></a>
+			</li>
+			
 			
 			
 			<li class="nav-item dropdown mr-4 d-none d-lg-block">
@@ -217,26 +227,26 @@ if (!doNotTrack) {
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-zhdocsmanual-li">
   <a href="/zh/docs/manual/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-zhdocsmanual"><span class="">用户指南</span></a>
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualpromotion-li">
-  <a href="/zh/docs/manual/promotion/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualpromotion"><span class="">促销管理</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualproduct-li">
-  <a href="/zh/docs/manual/product/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualproduct"><span class="">商品管理</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-zhdocsmanualinstall-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-zhdocsmanualinstall-li">
   <a href="/zh/docs/manual/install/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualinstall"><span class="td-sidebar-nav-active-item">安装</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualstore-li">
-  <a href="/zh/docs/manual/store/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualstore"><span class="">店铺管理</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualweapp-li">
-  <a href="/zh/docs/manual/weapp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualweapp"><span class="">微信小程序端上传指南</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualpayment-li">
-  <a href="/zh/docs/manual/payment/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualpayment"><span class="">支付网关管理</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanuallogin-li">
   <a href="/zh/docs/manual/login/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanuallogin"><span class="">管理后台</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualstore-li">
+  <a href="/zh/docs/manual/store/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualstore"><span class="">店铺管理</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualproduct-li">
+  <a href="/zh/docs/manual/product/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualproduct"><span class="">商品管理</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualpayment-li">
+  <a href="/zh/docs/manual/payment/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualpayment"><span class="">支付网关管理</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualpromotion-li">
+  <a href="/zh/docs/manual/promotion/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualpromotion"><span class="">促销管理</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualshopping-li">
+  <a href="/zh/docs/manual/shopping/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualshopping"><span class="">购物</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualcheckout-li">
   <a href="/zh/docs/manual/checkout/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualcheckout"><span class="">结账</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualorder-li">
   <a href="/zh/docs/manual/order/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualorder"><span class="">订单管理</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualshopping-li">
-  <a href="/zh/docs/manual/shopping/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualshopping"><span class="">购物</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-zhdocsmanualweapp-li">
+  <a href="/zh/docs/manual/weapp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-zhdocsmanualweapp"><span class="">微信小程序端上传指南</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-zhdocsdevelop-li">
@@ -306,7 +316,6 @@ if (!doNotTrack) {
         <li></li>
       </ul>
     </li>
-    <li><a href="#执行安装">执行安装</a></li>
   </ul>
 </nav></div>
 
@@ -397,7 +406,7 @@ if (!doNotTrack) {
 		
 	</header>    
 	<blockquote>
-<p>本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 <a href="../dev_guide/project.html">使用 Composer 进行工程创建</a></p>
+<p>本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 <a href="/zh/docs/develop/project/" title="使用 Composer 进行工程创建">使用 Composer 进行工程创建</a></p>
 </blockquote>
 <h2 id="下载">下载</h2>
 <p>请前往 <a href="https://github.com/weeshop/WeeShop/releases">WeeShop Github 版本发布页面</a>
@@ -407,7 +416,7 @@ if (!doNotTrack) {
 <p>在源码的根目录有一个 <code>docker-compose.yml</code> 文件，文件中已编排了一个 web 容器和一个 db 容器，
 如果主机已经安装了 docker，那么可以直接在源码根目录运行以下命令即可：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker-compose up -d
-</code></pre></div><p>运行命令后，通过访问 <code>http://localhost:8080</code> 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
+</code></pre></div><p>运行命令后，通过访问 <code>http://localhost:8081</code> 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
 需要注意的是，数据库的设置：</p>
 <ul>
 <li>主机: db</li>
@@ -492,7 +501,7 @@ zlib
 
 <span style="color:#ce5c00;font-weight:bold">[</span>Zend Modules<span style="color:#ce5c00;font-weight:bold">]</span>
 Zend OPcache
-</code></pre></div><h2 id="执行安装">执行安装</h2>
+</code></pre></div><h4 id="执行安装">执行安装</h4>
 <ul>
 <li>解压源码包，把 web 目录设置为 apache 站点根目录。</li>
 <li>确保 apache 进程对 <code>web/sites/default</code> 目录拥有可写权限，其他目录权需可读权限即可。</li>
@@ -565,7 +574,7 @@ Zend OPcache
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
-  最后修改 2021年30月11日: <a href="https://github.com/WeeShop/documentation2/commit/1d3616958406825af49510905d5ac9c6e8a6fd0b">adjust content. (1d36169)</a>
+  最后修改 2021年21月12日: <a href="https://github.com/WeeShop/documentation2/commit/32fa456f2c09c75485894f5c1ddb1672e8addf57">fix installation guide of user manual. (32fa456)</a>
 </div>
 
 </div>
