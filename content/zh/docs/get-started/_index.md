@@ -38,9 +38,9 @@ install_configure_form.demo_content=1 \
 --db-url=mysql://root:123@db:3306/drupal \
 --locale=en \
 --site-name='My WeeShop' \
---site-mail=164713332@qq.com \
+--site-mail=your-mail@example.com \
 --account-name=admin \
---account-mail=164713332@qq.com \
+--account-mail=your-mail@example.com \
 --account-pass=123"
 
 # 更新翻译
