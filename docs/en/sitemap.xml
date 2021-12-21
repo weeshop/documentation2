@@ -108,9 +108,6 @@
                 href="/community/"
                 />
   </url><url>
-    <loc>/docs/dev_guide/</loc>
-    <lastmod>2021-11-28T22:01:40+08:00</lastmod>
-  </url><url>
     <loc>/docs/</loc>
     <lastmod>2021-11-28T22:07:13+08:00</lastmod>
     <xhtml:link
@@ -149,9 +146,6 @@
                 href="/tags/"
                 />
   </url><url>
-    <loc>/docs/user_guide/</loc>
-    <lastmod>2021-11-28T22:01:40+08:00</lastmod>
-  </url><url>
     <loc>/</loc>
     <lastmod>2021-12-20T16:26:08+08:00</lastmod>
     <xhtml:link
@@ -164,44 +158,5 @@
                 hreflang="en"
                 href="/"
                 />
-  </url><url>
-    <loc>/docs/dev_guide/theme/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/promotion/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/dev_guide/project/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/product/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/install/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/store/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/weapp/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/payment/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/dev_guide/module/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/login/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/checkout/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/order/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
-  </url><url>
-    <loc>/docs/user_guide/shopping/</loc>
-    <lastmod>2021-11-27T22:20:08+08:00</lastmod>
   </url>
 </urlset>
