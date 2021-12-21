@@ -1,8 +1,9 @@
 ---
 title: 安装
+weight: 10
 ---
 
-> 本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 [使用 Composer 进行工程创建](../dev_guide/project.html)
+> 本文介绍非开发者用户如何安装 WeeShop，如果你是开发者请 [使用 Composer 进行工程创建]({{< ref "/docs/develop/project" >}} "使用 Composer 进行工程创建")
 
 ## 下载
 
@@ -19,7 +20,7 @@ WeeShop 自带 Docker 镜像，如果会使用 Docker，安装将会非常方便
 docker-compose up -d
 ```
 
-运行命令后，通过访问 `http://localhost:8080` 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
+运行命令后，通过访问 `http://localhost:8081` 即可打开 WeeShop 的图形安装界面，按提示输入必要信息安装即可。
 需要注意的是，数据库的设置：
 
 - 主机: db
@@ -113,7 +114,7 @@ Zend OPcache
 ```
 
 
-## 执行安装
+#### 执行安装
 
 - 解压源码包，把 web 目录设置为 apache 站点根目录。
 - 确保 apache 进程对 `web/sites/default` 目录拥有可写权限，其他目录权需可读权限即可。
