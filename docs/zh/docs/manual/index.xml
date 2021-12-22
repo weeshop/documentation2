@@ -161,7 +161,8 @@ Zend OPcache
         
         
         &lt;blockquote&gt;
-&lt;p&gt;此主题编写不完整&lt;/p&gt;
+&lt;p&gt;此主题编写不完整，参考文档
+&lt;a href=&#34;https://docs.drupalcommerce.org/commerce2/user-guide/setting-up-store&#34;&gt;https://docs.drupalcommerce.org/commerce2/user-guide/setting-up-store&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;每一个商品，都要关联到一个店铺，订单也是必须关联到一个店铺的，
 所以，在做创建任何商城数据之前，需要先创建一个店铺。&lt;/p&gt;
@@ -184,7 +185,11 @@ Zend OPcache
       <description>
         
         
-        &lt;h2 id=&#34;添加产品分类&#34;&gt;添加产品分类&lt;/h2&gt;
+        &lt;blockquote&gt;
+&lt;p&gt;此主题编写不完整，参考文档
+&lt;a href=&#34;https://docs.drupalcommerce.org/commerce2/user-guide/products&#34;&gt;https://docs.drupalcommerce.org/commerce2/user-guide/products&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;添加产品分类&#34;&gt;添加产品分类&lt;/h2&gt;
 &lt;h2 id=&#34;添加产品属性&#34;&gt;添加产品属性&lt;/h2&gt;
 &lt;h2 id=&#34;添加产品&#34;&gt;添加产品&lt;/h2&gt;
 &lt;h2 id=&#34;添加产品规格&#34;&gt;添加产品规格&lt;/h2&gt;
@@ -216,7 +221,8 @@ Zend OPcache
         
         
         &lt;blockquote&gt;
-&lt;p&gt;此主题编写不完整&lt;/p&gt;
+&lt;p&gt;此主题编写不完整，
+&lt;a href=&#34;https://docs.drupalcommerce.org/commerce2/user-guide/promotions&#34;&gt;https://docs.drupalcommerce.org/commerce2/user-guide/promotions&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
       </description>
@@ -264,7 +270,8 @@ Zend OPcache
         
         
         &lt;blockquote&gt;
-&lt;p&gt;此主题有待编写&lt;/p&gt;
+&lt;p&gt;此主题有待编写，
+&lt;a href=&#34;https://docs.drupalcommerce.org/commerce2/user-guide/orders&#34;&gt;https://docs.drupalcommerce.org/commerce2/user-guide/orders&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
       </description>
