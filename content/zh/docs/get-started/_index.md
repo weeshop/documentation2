@@ -50,3 +50,9 @@ su - application -c "cd /app/web/sites && \
 ```
 
 浏览器访问 `http://localhost:8081`，开始体验吧！
+
+## 想看看 Demo
+
+如果您只是想看看 WeeShop 安装后的样子，并不想真的去安装一个系统实例，您可以访问
+`http://weeshop.cattask.com`，这通常是 WeeShop 最新版本的一个部署实例。
+管理员账户是 `admin` `123`。

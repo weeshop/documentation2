@@ -3,7 +3,8 @@ title: 店铺管理
 weight: 30
 ---
 
-> 此主题编写不完整
+> 此主题编写不完整，参考文档
+> [https://docs.drupalcommerce.org/commerce2/user-guide/setting-up-store](https://docs.drupalcommerce.org/commerce2/user-guide/setting-up-store)
 
 每一个商品，都要关联到一个店铺，订单也是必须关联到一个店铺的，
 所以，在做创建任何商城数据之前，需要先创建一个店铺。
