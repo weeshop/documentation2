@@ -107,7 +107,7 @@ time_format_blog = "2006年2月1日"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "猫须科技"
+copyright = "WeeShop"
 privacy_policy = "https://www.weeshop.org/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
