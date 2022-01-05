@@ -11,7 +11,7 @@ weight: 10
 
 如果docker镜像下载慢，请自行了解 [如何加速docker镜像下载](https://www.baidu.com/s?wd=docker%E5%8A%A0%E9%80%9F)
 
-如果不希望使用 docker 快速安装，也可以参考 [通过传统的手工方式安装](user_guide/install.html)
+如果不希望使用 docker 快速安装，也可以参考 [通过传统的手工方式安装]({{< ref "/manual/install" >}} "Manual installation")
 
 先决条件：
 - 确保本机8080端口没有被占用。这是因为 `docker-compose.yml` 中需要映射 Web 容器的 80 端口到物理机的 8080 端口。
@@ -44,9 +44,9 @@ install_configure_form.demo_content=1 \
 --account-pass=123"
 
 # 更新翻译
-su - application -c "cd /app/web/sites && \
-/usr/local/bin/drush -vvv locale:check && \
-/usr/local/bin/drush -vvv locale:update"
+su - application -c "cd /app && \
+./vendor/bin/drush locale:check && \
+./vendor/bin/drush locale:update"
 ```
 
 浏览器访问 `http://localhost:8081`，开始体验吧！
